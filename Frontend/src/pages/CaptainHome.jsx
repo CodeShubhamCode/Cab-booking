@@ -6,7 +6,7 @@ import ConfirmRidePopUp from "../components/ConfirmRidePopUp";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { SocketContext } from "../context/SocketContext";
-import { CaptainDataContext } from "../context/captaincontext";
+import { CaptainDataContext } from "../context/CaptainContext";
 import axios from "axios";
 // Added import to mimic UI from home.jsx
 import LiveTracking from "../components/LiveTracking";
