@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import UserContext from "./context/UserContext";
 import UserProtectedWrapper from "./pages/UserProtectedWrapper";
-import CaptainContext from "./context/captaincontext.jsx";
+import CaptainContext from "./context/CaptainContext.jsx";
 // import SocketProvider from "./context/SocketContext.jsx";
 import { SocketProvider } from "./context/SocketContext";
 
